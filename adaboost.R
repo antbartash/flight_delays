@@ -27,6 +27,7 @@ flights_test <- flights[-inTraining, ]
 
 
 #### ADA_DEFAULT ####
+### train a baseline model
 # 3-4 minutes
 ada_default <- ada(DepDel15~., data = flights_train,
                    verbose = TRUE)
